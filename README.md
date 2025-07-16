@@ -3,7 +3,7 @@
 ## 📌 ¿Qué es este proyecto?
 
 **8BitComputer** es un proyecto educativo para diseñar y construir un **computador de 8 bits** desde cero, utilizando exclusivamente circuitos integrados lógicos de la familia **74**.  
-El objetivo es entender cómo funciona un procesador a nivel de hardware, simulando y luego montando cada bloque hasta tener un computador funcional.
+El objetivo es entender cómo funciona un procesador a nivel de hardware, simulando (en multisim) y luego montando cada bloque hasta tener un computador funcional.
 
 ---
 
