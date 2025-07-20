@@ -3,7 +3,7 @@
 ## 📌 ¿Qué es este proyecto?
 
 **8BitComputer** es un proyecto educativo para diseñar y construir un **computador de 8 bits** desde cero, utilizando exclusivamente circuitos integrados lógicos de la familia **74**.  
-El objetivo es entender cómo funciona un procesador a nivel de hardware, simulando (en multisim) y luego montando cada bloque hasta tener un computador funcional.
+El objetivo es entender cómo funciona un procesador a nivel de hardware, simulando (en Multisim) y luego montando cada bloque hasta tener un computador funcional.
 
 ---
 
@@ -13,12 +13,16 @@ Hasta ahora se ha completado:
 
 - 🔢 **Bloque aritmético:**  
   Implementado un sumador/restador en complemento a dos (**Ca2**) usando sumadores TTL.
+  - ✔️ **Flag de Overflow (V):**  
+  Ya implementado para detectar desbordamiento aritmético.
+  - ✔️ **Flag de Signo (S):**  
+  Ya implementado.
+  - ✔️ **Flag de Cero (Z):**  
+  Ya implementado, con logica adicional para **ignorar el `Cout` en la resta**.
 
 - ⚙️ **Bloque lógico:**  
   Realiza operaciones básicas como **NOT(A)**, **XOR**, **AND** y **OR** usando multiplexores y puertas lógicas.
 
-- ✔️ **Flag de Overflow (V):**  
-  Ya implementado para detectar desbordamiento aritmético.
 
 ---
 
@@ -26,10 +30,8 @@ Hasta ahora se ha completado:
 
 Los objetivos a corto plazo son:
 
-- ➕ Añadir un **comparador** para determinar si el resultado es **mayor, igual o menor**. \\74LS85
-- 🏳️ Implementar los **flags faltantes**:
-  - **Z (Zero):** indica si el resultado es cero.
-  - **S (Signo):** indica el signo de la operación.
+- ➕ Añadir un **comparador** para determinar si el resultado es **mayor, igual o menor**. (similares a 74LS85 (quiza mas adelante se terminen usando si Multisim se sobrecarga)).
+- ➡️ Implementar desplazamientos logicos para por lo menos tener multiplicaciones (y divisiones tal vez) por 2.
 - 🔗 Unir la parte aritmética y lógica para formar la **ALU completa**.
 
 - Preparar esquemas parciales para el acumulador y registros.
