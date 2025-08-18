@@ -23,7 +23,8 @@ La idea es comprender cómo funciona un procesador a nivel **hardware**, simulan
 
 ## 🚧 Próximos pasos (corto plazo)
 
-- 🔗 Unir los bloques aritmético y lógico para formar la **ALU completa**.  
+- 🔗 Unir los bloques aritmético y lógico para formar la **ALU completa**  
+  _(actualmente hay problemas con el simulador al juntar ambos bloques, ya que interpreta algunas señales de forma incorrecta cuando se visualizan con LEDs)_.  
 - Preparar esquemas parciales del **acumulador** y **registros**.  
 - Diseñar el primer prototipo de la **unidad de control**.  
 - Documentar cada módulo con diagramas y explicaciones.
